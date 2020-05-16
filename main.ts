@@ -447,6 +447,7 @@ function startlevel () {
             [myTiles.tile0,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile9,myTiles.tile10,myTiles.tile11,myTiles.tile12],
             TileScale.Sixteen
         ))
+        info.startCountdown(60)
     } else if (current_level == 2) {
         scene.setBackgroundImage(img`
 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
@@ -578,7 +579,7 @@ function startlevel () {
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 . . . . . . . 2 . . . . . 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-. . 2 . . . . 2 . 2 . 2 . 2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . 2 . . . . 2 . . . 2 . 2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 . . . . . . . 2 . 2 . 2 . 2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 . . . 2 . . . 2 . 2 . 2 . 2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 . . . . . . . 2 . 2 . 2 . 2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
@@ -593,6 +594,7 @@ function startlevel () {
             [myTiles.tile0,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile9,myTiles.tile10,myTiles.tile11,myTiles.tile12],
             TileScale.Sixteen
         ))
+        info.startCountdown(50)
     } else if (current_level == 3) {
         scene.setBackgroundImage(img`
 d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d 
@@ -773,6 +775,7 @@ d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d 
             [myTiles.tile0,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile9,myTiles.tile10,myTiles.tile11,myTiles.tile12],
             TileScale.Sixteen
         ))
+        info.startCountdown(40)
     } else if (current_level == 4) {
         scene.setBackgroundImage(img`
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
@@ -919,6 +922,7 @@ d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d 
             [myTiles.tile0,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile9,myTiles.tile10,myTiles.tile11,sprites.builtin.coral0,sprites.dungeon.chestClosed,myTiles.tile12],
             TileScale.Sixteen
         ))
+        info.startCountdown(30)
     } else if (current_level == 5) {
         scene.setBackgroundImage(img`
 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
@@ -1320,6 +1324,9 @@ c d 1 d d 1 d c
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Coin, function (sprite, otherSprite) {
     info.changeScoreBy(1)
     otherSprite.destroy()
+})
+info.onCountdownEnd(function () {
+    game.over(false, effects.slash)
 })
 scene.onOverlapTile(SpriteKind.Player, myTiles.tile2, function (sprite, location) {
     game.over(false, effects.melt)
