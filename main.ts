@@ -1438,7 +1438,7 @@ let princess: Sprite = null
 let BossCat: Sprite = null
 let mySprite: Sprite = null
 let current_level = 0
-current_level = 5
+current_level = 1
 mySprite = sprites.create(img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
